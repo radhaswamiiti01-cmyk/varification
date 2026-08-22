@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+<meta charset="UTF-8">
+<title>Marksheet Verification | AICVPS</title>
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    background: #e9eef3;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.page {
+    max-width: 950px;
+    margin: 30px auto;
+    background: #ffffff;
+    border: 2px solid #1c4587;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* HEADER */
+.header {
+    background: #1c4587;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+.header h1 {
+    margin: 0;
+    font-size: 26px;
+}
+.header p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+/* SECTION */
+.section {
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 22px;
+    color: #1c4587;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* INFO TABLE */
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.info-table td {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+.info-table td b {
+    color: #000;
+}
+
+/* MARKS TABLE */
+.marks-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.marks-table th {
+    background: #1c4587;
+    color: #fff;
+    padding: 8px;
+    border: 1px solid #000;
+    font-size: 13px;
+    text-align: center;
+}
+.marks-table td {
+    padding: 8px;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 14px;
+}
+.marks-table td.subject {
+    text-align: left;
+}
+
+/* RESULT */
+.result-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* VERIFICATION */
+.verify {
+    margin: 25px;
+    padding: 15px;
+    border: 2px dashed green;
+    color: green;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* FOOTER */
+.footer {
+    background: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #555;
+}
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+<div class="header">
+    <h1>All India Council For Vocational & Paramedical Science</h1>
+    <p>Autonomous Institution | ISO 9001:2008 Certified | New Delhi</p>
+</div>
+
+<div class="section">
+    <div class="title">Performance Statement / Marksheet</div>
+
+    <!-- STUDENT INFO TABLE (WITHOUT PHOTO) -->
+    <table class="info-table">
+        <tr>
+            <td><b>Student Name:</b> Charan Vipulkumar</td>
+            <td><b>Roll Number:</b> 20182156</td>
+        </tr>
+        <tr>
+            <td><b>Father's Name:</b> Charan Devkaranbhai</td>
+            <td><b>Date of Birth:</b> 03-03-2008</td>
+        </tr>
+        <tr>
+            <td><b>Mother's Name:</b> Charan Sonalben</td>
+            <td><b>Session:</b> Jun 2024 - Jun 2025</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Course Name:</b> Computer Operator & Programming Assistant</td>
+        </tr>
+    </table>
+
+    <!-- MARKS TABLE -->
+    <table class="marks-table">
+        <tr>
+            <th rowspan="2" style="width: 50px;">Code</th>
+            <th rowspan="2">Subject</th>
+            <th colspan="2">Marks Obtained</th>
+            <th rowspan="2">Total Marks</th>
+            <th rowspan="2">Min. Marks</th>
+            <th rowspan="2">Max. Marks</th>
+            <th rowspan="2">Grade</th>
+        </tr>
+        <tr>
+            <th>Marks</th>
+            <th>Internal</th>
+        </tr>
+
+        <tr><td>101</td><td class="subject">Communicative English</td><td>62</td><td>14</td><td>76</td><td>40</td><td>100</td><td>A</td></tr>
+        <tr><td>102</td><td class="subject">Microsoft Office</td><td>58</td><td>13</td><td>71</td><td>40</td><td>100</td><td>B+</td></tr>
+        <tr><td>103</td><td class="subject">Programming in C</td><td>59</td><td>11</td><td>70</td><td>40</td><td>100</td><td>B+</td></tr>
+        <tr><td>104</td><td class="subject">Fundamentals of IT & Operating System</td><td>55</td><td>10</td><td>65</td><td>40</td><td>100</td><td>B</td></tr>
+        <tr><td>105</td><td class="subject">System Analysis & Design</td><td>64</td><td>15</td><td>79</td><td>40</td><td>100</td><td>A</td></tr>
+        <tr><td>106</td><td class="subject">Rdbms</td><td>57</td><td>12</td><td>69</td><td>40</td><td>100</td><td>B</td></tr>
+        <tr><td>107</td><td class="subject">Multimedia & Applications</td><td>62</td><td>11</td><td>73</td><td>40</td><td>100</td><td>B+</td></tr>
+
+        <tr>
+            <th colspan="2">Total</th>
+            <th>417</th>
+            <th>86</th>
+            <th>603</th>
+            <th>280</th>
+            <th>700</th>
+            <th>B+</th>
+        </tr>
+    </table>
+
+    <div class="result-box">
+        <div>Percentage: <span style="color:#1c4587;">71.88%</span></div>
+        <div>Result: <span style="color:green;">PASS</span></div>
+    </div>
+</div>
+
+<div class="verify">
+    ✔ Marksheet Verified Successfully  
+    <br>
+    This is an authentic digital record as per institute database.
+</div>
+
+<div class="footer">
+    © All India Council For Vocational & Paramedical Science | For Verification Purpose Only
+</div>
+
+</div>
+
+</body>
+</html>
